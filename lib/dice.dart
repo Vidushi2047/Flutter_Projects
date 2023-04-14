@@ -14,19 +14,9 @@ class _DiceState extends State<Dice> {
    int r=1;
    void changeDiceSide(){
         setState(() {
-                //  if( l<6){
-                //   l++;
-                //  }
-                //    else{
-                //     l=l-5;
-                //   }
-                 l=Random().nextInt(6)+1;
-                 
-                },
- );
-                
+                 l=Random().nextInt(6)+1; },
+ );            
    }
-  
   @override
   Widget build(BuildContext context) {
    
